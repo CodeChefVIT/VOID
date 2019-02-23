@@ -1,0 +1,77 @@
+{
+  "max_histories": [
+    3, 
+    3, 
+    null
+  ], 
+  "python": "2.7.6", 
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
+  "rasa_core": "0.12.4", 
+  "trained_at": "20190223-011955", 
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy", 
+    "rasa_core.policies.memoization.MemoizationPolicy", 
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ], 
+  "action_fingerprints": {
+    "utter_fulllife": {
+      "slots": []
+    }, 
+    "utter_greet": {
+      "slots": []
+    }, 
+    "action_listen": {
+      "slots": [
+        "bm", 
+        "name", 
+        "car", 
+        "joyOpp"
+      ]
+    }, 
+    "utter_bm": {
+      "slots": []
+    }, 
+    "utter_dcquestion": {
+      "slots": []
+    }, 
+    "utter_goodbye": {
+      "slots": []
+    }, 
+    "utter_happy": {
+      "slots": []
+    }, 
+    "utter_halflife": {
+      "slots": []
+    }, 
+    "utter_absolute": {
+      "slots": []
+    }, 
+    "utter_success": {
+      "slots": []
+    }, 
+    "utter_sad": {
+      "slots": []
+    }, 
+    "utter_name": {
+      "slots": []
+    }, 
+    "utter_relationship": {
+      "slots": []
+    }, 
+    "utter_thanks": {
+      "slots": []
+    }, 
+    "utter_joy": {
+      "slots": []
+    }, 
+    "utter_variable": {
+      "slots": []
+    }, 
+    "action_default_fallback": {
+      "slots": []
+    }, 
+    "utter_lifequestion": {
+      "slots": []
+    }
+  }
+}

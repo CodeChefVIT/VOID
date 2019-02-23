@@ -1,0 +1,157 @@
+type:
+- greet
+
+- name
+- goodbye
+- thanks
+
+- sad
+- happy
+
+
+- jealousy
+- dreamCar
+- joyOpp
+- bm
+- irrelevant
+# - success
+- joy
+
+- relationship
+- absolute
+- variable
+- monthly
+- daily
+# - lifequestion
+- halflife
+- fulllife
+
+typeEnt:
+- name
+- car
+- joyOpp
+- bm
+
+
+slots:
+  name:
+    type: text
+  car:
+    type: text
+  joyOpp:
+    type: text
+  bm:
+    type: text
+
+
+actions:
+- _name
+- _thanks
+- _greet
+- _goodbye
+- _confirm
+
+- _sad
+- _happy
+- _jealousy
+- _dreamCar
+- _success
+- _joy
+- _bm
+- _irrelevant
+- _dcquestion
+
+- _relationship
+- _absolute
+- _variable
+- _monthly
+- _daily
+- _lifequestion
+- _halflife
+- _fulllife
+
+
+types:
+  _name:
+  - text: "Hey there! May I know your name?"
+
+  _greet:
+  - text: "Nice to you meet you {name}. How can I help you?"
+
+  _goodbye:
+  - text: "Talk to you later!"
+  
+  _thanks:
+  - text: "My pleasure."
+
+  _sad:
+  - text: "I understand you're feeling sad. It's only natural to feel this way. Talking about how we feel helps us understand the situation and feel more in control. Can you tell what went wrong?"
+
+  _happy:
+  - text: "Awesome! I am very happy to hear that. You are happy which means your way of being is not determined by what's around you. If you bring this one aspect to you on a daily basis, there will be no fear or suffering. "
+
+
+  _jealousy:
+  - text: "People have fixed themselves in such a way that whatever happens, they cannot be happy. Let me ask you a question: "
+
+  _dcquestion:
+  - text: "What is your dream car?"
+
+  _dreamCar:
+  - text: "Lets leave poor people as of now. Do you think that people driving {car} are bursting with ecstasy? Only in case if it is a stolen car, you see the joy <emoji>"
+
+  _success:
+  - text: "So one thing is very clear. Success does not bring joy to the people because it is not even about them. It is always about something or someone else. Do you know what is the opposite of joy?"
+
+  _joy:
+  - text: "If your joy, your {joyOpp}, your happiness, your misery is determined by something or somebody around you, the chances of being joyfull in your life is almost removed. You must understand this, that human experience is created from within. In other words, joy or misery or agony or ecstasy is created within you. Therefore, you must take charge of yourself. It may be difficult to manage the outside world in your way, but your body and your mind must heppen the way you it to happen. If what you what happen, would you keep yourself 1. Blissed out 2. Miserable? "
+
+  _bm:
+  - text: "True, blissed out ofcourse. So if such a thing is not happening, it only means that your body and mind is not happening the way you want it. This problem is coming because you have not taken charge of your fundamental human mechanism. If you take charge of yourself, you will always keep yourself happy and joyfull, no matter what happens in your life. If that does not solves your problem, you can checkout this video https://www.youtube.com/watch?v=1rcqwRgVvvw."
+
+  _irrelevant:
+  - text: "Yeah, may be that's irrelevant. But it will help you to feel better. Trust me. So lets try again."
+
+
+  _relationship:
+  - text: "The closer we are, the harder it is when things fall apart. The hardest part of moving on is accepting what is happening. If you look deeply, you will realise that relationships break because the other person decide what they want to do, not you want them to do. So when life knocks at your door like this, it’s time you look deeper rather than reacting. Let me ask you this: What do you think about relationships? Are they 1. Absolute 2. Variable."
+
+  _absolute:
+  - text: "Well, may be that's why you are not feeling good. This is a big misconception and you are disillusioned right now. Lets understand this step by step. When a person gets little romantic, he believes unconsciously that this is going to be an absolute relationship. No where in the history of humanity or today or in anytime in future, will human relationships be absolute. If you want to have a good relationship, how would you like to conduct? 1) daily basis. 2) monthly basis"
+
+  _variable:
+  - text: "Yes, you are absolutely right. No where in the history of humanity or today or in anytime in future, will human relationships be absolute. If you want to have a good relationship, how would you like to conduct? 1) daily basis. 2) monthly basis"
+
+  _monthly:
+  - text: "See, now we getting close to your problem. A relationship is a variable always and you have to conduct it on a daily basis. Otherwise, it may go somewhere else. Now let us understand why do we need a relationship. For that, let me ask you this:"
+
+  _daily:
+  - text: "Perfect. You are on the right track. Now it is difficult to understand why you still had a breakup. Let's understand this step by step. For that, let me ask you this:"
+
+  _lifequestion:
+  - text: "Are you 1)half a life or 2)full life?"
+
+  _halflife:
+  - text: "Think again. You are believing this because you are not aware of your importance. Since you are believing this, you want another person to fill this life. Life doesn't work like this. If you extract some part from the other person, then the other person will also do the same. That is why you are suffering from this situation. If you’ve blossomed as a complete life, you will see relationships will be of a completely different nature. It will be more of coming together and sharing, not of extracting. You can watch this video, which will help you to heal: https://www.youtube.com/watch?v=mxJ99xu-B7g"
+
+  _fulllife:
+  - text: "Absolutely true. You are a full life. Now since you agreed that you are a full life, then why is it feels so incomplete that it needs another person to fill this life? So, if you’ve blossomed as a complete life, you will see relationships will be of a completely different nature. It will be more of coming together and sharing, not of extracting. You can watch this video, which will help you to heal: https://www.youtube.com/watch?v=mxJ99xu-B7g"
+
+  _default:
+  - text: "Sorry I did not get this. Can you please be more clear?"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

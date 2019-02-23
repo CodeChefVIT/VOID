@@ -1,0 +1,3 @@
+policies:
+  - name: CNNPolicy
+    epochs: 400

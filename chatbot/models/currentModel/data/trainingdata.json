@@ -1,0 +1,829 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hi", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hey", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hi bot", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hey bot", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hello", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Good morning", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi again", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi folks", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi Mister", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi pal!", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi there", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "greetings", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello everybody", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello robot", 
+        "intent": "greet"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Vinit", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "name", 
+        "text": "name Vinit"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 12, 
+            "value": "Karthik", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "name", 
+        "text": "name Karthik"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 9, 
+            "value": "Lucy", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "name", 
+        "text": "I am Lucy"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "vinal", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "name", 
+        "text": "I am vinal"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 9, 
+            "value": "koko", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "name", 
+        "text": "I am koko"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 12, 
+            "value": "Prateek", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "name", 
+        "text": "I am Prateek"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 9, 
+            "value": "Navin", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "name", 
+        "text": "I'm Navin"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 9, 
+            "value": "Ankur", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "name", 
+        "text": "I'm Ankur"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 12, 
+            "value": "Harshit", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "name", 
+        "text": "It's Harshit"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "George", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "name", 
+        "text": "call George"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Bodhwani", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "name", 
+        "text": "Name name is Bodhwani"
+      }, 
+      {
+        "text": "Bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "Goodbye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "See you later", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "Bye bot", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "Goodbye friend", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "bye for now", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "catch you later", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "gotta go", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "See you", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "goodnight", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "have a nice day", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "i'm off", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "see you later alligator", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "we'll speak soon", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "Thanks", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "Thank you", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "Thank you so much", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "Thanks bot", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "Thanks for that", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "cheers", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "cheers bro", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "ok thanks!", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "perfect thank you", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thanks a bunch for everything", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thanks for the help", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thanks a lot", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "amazing, thanks", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "cool, thanks", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "cool thank you", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "sad", 
+        "intent": "sad"
+      }, 
+      {
+        "text": "I am feeling sad", 
+        "intent": "sad"
+      }, 
+      {
+        "text": "not feeling good", 
+        "intent": "sad"
+      }, 
+      {
+        "text": "feeling bad", 
+        "intent": "sad"
+      }, 
+      {
+        "text": "unhappy", 
+        "intent": "sad"
+      }, 
+      {
+        "text": "sorrow", 
+        "intent": "sad"
+      }, 
+      {
+        "text": "regret", 
+        "intent": "sad"
+      }, 
+      {
+        "text": "I am feeling happy", 
+        "intent": "happy"
+      }, 
+      {
+        "text": "happy", 
+        "intent": "happy"
+      }, 
+      {
+        "text": "awesome", 
+        "intent": "happy"
+      }, 
+      {
+        "text": "pleasure", 
+        "intent": "happy"
+      }, 
+      {
+        "text": "joyful", 
+        "intent": "happy"
+      }, 
+      {
+        "text": "satisfied", 
+        "intent": "happy"
+      }, 
+      {
+        "text": "blessed", 
+        "intent": "happy"
+      }, 
+      {
+        "text": "amazing", 
+        "intent": "happy"
+      }, 
+      {
+        "text": "awesome", 
+        "intent": "happy"
+      }, 
+      {
+        "text": "I am feeling jealous", 
+        "intent": "jealousy"
+      }, 
+      {
+        "text": "jealous", 
+        "intent": "jealousy"
+      }, 
+      {
+        "text": "competition", 
+        "intent": "jealousy"
+      }, 
+      {
+        "text": "envy", 
+        "intent": "jealousy"
+      }, 
+      {
+        "text": "anxious", 
+        "intent": "jealousy"
+      }, 
+      {
+        "text": "competitive", 
+        "intent": "jealousy"
+      }, 
+      {
+        "text": "compare", 
+        "intent": "jealousy"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 16, 
+            "value": "Nissan", 
+            "entity": "car"
+          }
+        ], 
+        "intent": "dreamCar", 
+        "text": "dream car Nissan"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 10, 
+            "value": "Volkswagen", 
+            "entity": "car"
+          }
+        ], 
+        "intent": "dreamCar", 
+        "text": "Volkswagen car"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "Maruti", 
+            "entity": "car"
+          }
+        ], 
+        "intent": "dreamCar", 
+        "text": "Maruti car"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Jaguar", 
+            "entity": "car"
+          }
+        ], 
+        "intent": "dreamCar", 
+        "text": "ride Jaguar car"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Jaguar", 
+            "entity": "car"
+          }
+        ], 
+        "intent": "dreamCar", 
+        "text": "ride Jaguar brand"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 9, 
+            "value": "Honda", 
+            "entity": "car"
+          }
+        ], 
+        "intent": "dreamCar", 
+        "text": "buy Honda car"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Mercedes", 
+            "entity": "car"
+          }
+        ], 
+        "intent": "dreamCar", 
+        "text": "love Mercedes car"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 12, 
+            "value": "Hyundai", 
+            "entity": "car"
+          }
+        ], 
+        "intent": "dreamCar", 
+        "text": "love Hyundai car"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 12, 
+            "value": "Hyundai", 
+            "entity": "car"
+          }
+        ], 
+        "intent": "dreamCar", 
+        "text": "love Hyundai brand"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "BMW", 
+            "entity": "car"
+          }
+        ], 
+        "intent": "dreamCar", 
+        "text": "may be BMW"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 15, 
+            "value": "Mercedes", 
+            "entity": "car"
+          }
+        ], 
+        "intent": "dreamCar", 
+        "text": "may be Mercedes"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 13, 
+            "value": "agony", 
+            "entity": "joyOpp"
+          }
+        ], 
+        "intent": "joyOpp", 
+        "text": "I guess agony"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 14, 
+            "value": "sorrow", 
+            "entity": "joyOpp"
+          }
+        ], 
+        "intent": "joyOpp", 
+        "text": "I guess sorrow"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 15, 
+            "value": "unhappy", 
+            "entity": "joyOpp"
+          }
+        ], 
+        "intent": "joyOpp", 
+        "text": "I think unhappy"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 17, 
+            "value": "depressed", 
+            "entity": "joyOpp"
+          }
+        ], 
+        "intent": "joyOpp", 
+        "text": "I think depressed"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 11, 
+            "value": "blissed out", 
+            "entity": "bm"
+          }
+        ], 
+        "intent": "bm", 
+        "text": "blissed out"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "Blissed", 
+            "entity": "bm"
+          }
+        ], 
+        "intent": "bm", 
+        "text": "Blissed"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 21, 
+            "value": "blissed out", 
+            "entity": "bm"
+          }
+        ], 
+        "intent": "bm", 
+        "text": "obviously blissed out"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 16, 
+            "value": "bliss", 
+            "entity": "bm"
+          }
+        ], 
+        "intent": "bm", 
+        "text": "obvisously bliss"
+      }, 
+      {
+        "text": "first option [](bm)", 
+        "intent": "bm"
+      }, 
+      {
+        "text": "1st option [](bm)", 
+        "intent": "bm"
+      }, 
+      {
+        "text": "but that is irrelevant", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "no use", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "not relevant", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "no relation", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "but that is irrelevant", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "no use", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "not relevant", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "no relation", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "but that is irrelevant", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "no use", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "not relevant", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "no relation", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "but that is irrelevant", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "no use", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "not relevant", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "no relation", 
+        "intent": "irrelevant"
+      }, 
+      {
+        "text": "joy", 
+        "intent": "joy"
+      }, 
+      {
+        "text": "joyfull", 
+        "intent": "joy"
+      }, 
+      {
+        "text": "ecstasy", 
+        "intent": "joy"
+      }, 
+      {
+        "text": "feeling wonderfull", 
+        "intent": "joy"
+      }, 
+      {
+        "text": "enjoy", 
+        "intent": "joy"
+      }, 
+      {
+        "text": "relationship", 
+        "intent": "relationship"
+      }, 
+      {
+        "text": "breakup", 
+        "intent": "relationship"
+      }, 
+      {
+        "text": "hate person", 
+        "intent": "relationship"
+      }, 
+      {
+        "text": "fight girl", 
+        "intent": "relationship"
+      }, 
+      {
+        "text": "fight wife", 
+        "intent": "relationship"
+      }, 
+      {
+        "text": "divorce", 
+        "intent": "relationship"
+      }, 
+      {
+        "text": "move on", 
+        "intent": "relationship"
+      }, 
+      {
+        "text": "absolute", 
+        "intent": "absolute"
+      }, 
+      {
+        "text": "stagnant", 
+        "intent": "absolute"
+      }, 
+      {
+        "text": "constant", 
+        "intent": "absolute"
+      }, 
+      {
+        "text": "fixed", 
+        "intent": "absolute"
+      }, 
+      {
+        "text": "does not change", 
+        "intent": "absolute"
+      }, 
+      {
+        "text": "change", 
+        "intent": "variable"
+      }, 
+      {
+        "text": "variable", 
+        "intent": "variable"
+      }, 
+      {
+        "text": "not constant", 
+        "intent": "variable"
+      }, 
+      {
+        "text": "not fixed", 
+        "intent": "variable"
+      }, 
+      {
+        "text": "inconsistent", 
+        "intent": "variable"
+      }, 
+      {
+        "text": "monthly basis", 
+        "intent": "monthly"
+      }, 
+      {
+        "text": "month", 
+        "intent": "monthly"
+      }, 
+      {
+        "text": "daily basis", 
+        "intent": "daily"
+      }, 
+      {
+        "text": "daily", 
+        "intent": "daily"
+      }, 
+      {
+        "text": "half-life", 
+        "intent": "halflife"
+      }, 
+      {
+        "text": "half", 
+        "intent": "halflife"
+      }, 
+      {
+        "text": "full-life", 
+        "intent": "fulllife"
+      }, 
+      {
+        "text": "full", 
+        "intent": "fulllife"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": [], 
+    "lookup_tables": []
+  }
+}
